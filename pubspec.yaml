@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   get: ^4.1.4
+  get_storage: ^2.0.2
   dartz: ^0.10.0-nullsafety.2
   dio: ^4.0.0
   equatable: ^2.0.3

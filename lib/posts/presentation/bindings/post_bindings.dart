@@ -6,6 +6,6 @@ class PostBindings extends Bindings {
   @override
   void dependencies() {
     Get.put(PostFacadeService());
-    Get.put(PostController());
+    Get.lazyPut<PostController>(() => PostController());
   }
 }
